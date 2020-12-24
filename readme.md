@@ -22,8 +22,12 @@
         
         @RequestMapping  配置url映射
         
-        @PathVariable  获取url中的数据
+        @PathVariable  获取url中的变量值
         
         @RequestParam  获取请求参数的值
         
         @GetMapping  组合注解
+        
+ 3. 数据库
+ 
+     - 增删改查 
