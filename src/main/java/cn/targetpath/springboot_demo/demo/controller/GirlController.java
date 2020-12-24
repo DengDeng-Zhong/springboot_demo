@@ -101,4 +101,9 @@ public class GirlController {
         return girlService.findByAge(age);
     }
 
+    @GetMapping(value = "/girls/test")
+    public void insertTwo(){
+        this.girlService.insertTwo();
+    }
+
 }
